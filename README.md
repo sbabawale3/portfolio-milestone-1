@@ -1,0 +1,3 @@
+Common Region: I used the Gestalt principle of Common Region by applying a white background and a subtle drop shadow to the .card class, which visually groups the related text and form elements together within a clear boundary.
+
+Similarity: I used the Gestalt principle of Similarity by styling both the navigation links and the contact form submit button with the same blue background color, white text, and border radius to visually indicate that they are all interactive, clickable elements.

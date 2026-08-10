@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & Contact - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>About & Contact</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="projects.html">Projects</a></li>
+                <li><a class="nav-link" href="about.html">About & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <p>I focus on modern front-end web development, clean markup, and responsive layouts.</p>
+        </section>
+
+       <section id="contact-form" class="card">
+    <h2>Contact Information</h2>
+    <h3>Get in Touch</h3>
+    <p>Email: contact@example.com</p>
+
+    <form id="portfolio-contact" action="#" method="POST" novalidate>
+        <fieldset>
+            <legend>Send a Message</legend>
+
+            <!-- Field 1 -->
+            <div class="input-group">
+                <label for="userName">Name:</label>
+                <input type="text" id="userName" name="userName" required>
+                <!-- Accessible DOM error state -->
+                <span class="error-message" id="nameError" aria-live="polite"></span> 
+            </div>
+
+            <!-- Field 2 -->
+            <div class="input-group">
+                <label for="userEmail">Email Address:</label>
+                <input type="email" id="userEmail" name="userEmail" required>
+                <span class="error-message" id="emailError" aria-live="polite"></span>
+            </div>
+
+            <!-- Field 3 -->
+            <div class="input-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                <span class="error-message" id="subjectError" aria-live="polite"></span>
+            </div>
+
+            <!-- Field 4 -->
+            <div class="input-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <span class="error-message" id="messageError" aria-live="polite"></span>
+            </div>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Personal Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

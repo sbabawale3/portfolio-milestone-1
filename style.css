@@ -1,0 +1,41 @@
+/* Base Page Palette */
+body {
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333333; /* Dark gray text for high contrast */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Gestalt Principle 1: Common Region (Enclosure) */
+.card {
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 8px; /* Soft edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Gestalt Principle 2: Similarity */
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link, button[type="submit"] {
+    background-color: #0056b3; /* Deep high-contrast blue */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover, button[type="submit"]:hover {
+    background-color: #003d82; /* Darker blue on hover */
+}
