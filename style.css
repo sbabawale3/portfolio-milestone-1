@@ -106,7 +106,7 @@ body.dark-mode a {
   color: #8ab4f8 !important;
 }
 
-body.dark-mode button#theme-btn {
+body.dark-mode #theme-btn {
   background-color: #bb86fc !important;
   color: #000000 !important;
 }
