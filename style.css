@@ -39,3 +39,34 @@ body {
 .nav-link:hover, button[type="submit"]:hover {
     background-color: #003d82; /* Darker blue on hover */
 }
+
+/* Dark Mode Overrides */
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode a {
+  color: #8ab4f8 !important;
+}
+
+/* Style for Toggle Button */
+#theme-btn {
+  background-color: #0056b3;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+body.dark-mode #theme-btn {
+  background-color: #bb86fc;
+  color: #000000;
+}
