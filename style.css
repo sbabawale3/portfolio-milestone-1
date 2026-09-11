@@ -46,13 +46,22 @@ body.dark-mode {
   color: #ffffff !important;
 }
 
-body.dark-mode .card {
-  background-color: #1e1e1e !important;
+body.dark-mode section {
+  background-color: #121212 !important;
   color: #ffffff !important;
 }
 
 body.dark-mode a {
   color: #8ab4f8 !important;
+}
+body.dark-mode header,
+body.dark-mode footer,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p {
+  background-color: transparent !important;
+  color: #ffffff !important;
 }
 
 /* Style for Toggle Button */
