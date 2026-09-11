@@ -39,7 +39,6 @@ body {
 .nav-link:hover, button[type="submit"]:hover {
     background-color: #003d82; /* Darker blue on hover */
 }
-
 /* Dark Mode Overrides */
 body.dark-mode {
   background-color: #121212 !important;
