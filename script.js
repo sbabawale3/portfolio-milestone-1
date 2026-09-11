@@ -44,15 +44,5 @@ document.addEventListener("DOMContentLoaded", function() {
         quoteText.textContent = "Could not load quote at this time.";
       });
   }
-   
-  fetch("https://dummyjson.com/quotes/random")
-      .then(function(response) {
-        return response.json();
-      })
-      .then(function(data) {
-        quoteText.textContent = '"' + data.quote + '" — ' + data.author;
-      })
-      .catch(function(error) {
-        quoteText.textContent = "Could not load quote at this time.";
-      });
-  }
+   });
+  
