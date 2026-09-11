@@ -30,13 +30,22 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
-  // 3. Optional Bonus: Simple API Fetch (Random Quote)
-  const quoteText = document.querySelector("#quote-text");
-  if (quoteText) {
-   // 3. Optional Bonus: Simple API Fetch (Random Quote)
+ // 3. Optional Bonus: Simple API Fetch (Random Quote)
   const quoteText = document.querySelector("#quote-text");
   if (quoteText) {
     fetch("https://dummyjson.com/quotes/random")
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(data) {
+        quoteText.textContent = '"' + data.quote + '" — ' + data.author;
+      })
+      .catch(function(error) {
+        quoteText.textContent = "Could not load quote at this time.";
+      });
+  }
+   
+  fetch("https://dummyjson.com/quotes/random")
       .then(function(response) {
         return response.json();
       })
