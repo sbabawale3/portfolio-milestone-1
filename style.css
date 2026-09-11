@@ -79,3 +79,34 @@ body.dark-mode #theme-btn {
   background-color: #bb86fc;
   color: #000000;
 }
+
+/* Universal Dark Mode Override */
+body.dark-mode,
+body.dark-mode main,
+body.dark-mode section,
+body.dark-mode div,
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode label,
+body.dark-mode span {
+  color: #ffffff !important;
+}
+
+body.dark-mode a {
+  color: #8ab4f8 !important;
+}
+
+body.dark-mode button#theme-btn {
+  background-color: #bb86fc !important;
+  color: #000000 !important;
+}
