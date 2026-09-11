@@ -40,30 +40,6 @@ body {
     background-color: #003d82; /* Darker blue on hover */
 }
 
-/* Dark Mode Overrides */
-body.dark-mode {
-  background-color: #121212 !important;
-  color: #ffffff !important;
-}
-
-body.dark-mode section {
-  background-color: #121212 !important;
-  color: #ffffff !important;
-}
-
-body.dark-mode a {
-  color: #8ab4f8 !important;
-}
-body.dark-mode header,
-body.dark-mode footer,
-body.dark-mode h1,
-body.dark-mode h2,
-body.dark-mode h3,
-body.dark-mode p {
-  background-color: transparent !important;
-  color: #ffffff !important;
-}
-
 /* Style for Toggle Button */
 #theme-btn {
   background-color: #0056b3;
@@ -75,18 +51,14 @@ body.dark-mode p {
   cursor: pointer;
 }
 
-body.dark-mode #theme-btn {
-  background-color: #bb86fc;
-  color: #000000;
-}
-
 /* Universal Dark Mode Override */
 body.dark-mode,
 body.dark-mode main,
 body.dark-mode section,
 body.dark-mode div,
 body.dark-mode header,
-body.dark-mode footer {
+body.dark-mode footer,
+body.dark-mode .card {
   background-color: #121212 !important;
   color: #ffffff !important;
 }
